@@ -1,13 +1,10 @@
-# nils4spring
-NILS integration for the Spring Framework
-
 # NILS 4 Spring
 
 _NILS4Spring_ is the integration of the _NILS_ library into the Spring Framework.
 
 _NILS_ enables developers to integrate NLS into their Java projects easily.
 
-The documentation can be found at https://docs.codepulsar.com/nils/docs/latest/index.html.
+The documentation can be found at https://docs.codepulsar.com/nils4spring/latest/index.html.
 
 ## Contributing
 
