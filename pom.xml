@@ -27,6 +27,11 @@
 		<dependencies>
 			<dependency>
 				<groupId>com.codepulsar.nils</groupId>
+				<artifactId>nils4spring</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.codepulsar.nils</groupId>
 				<artifactId>nils-core</artifactId>
 				<version>${versions.nils}</version>
 			</dependency>
