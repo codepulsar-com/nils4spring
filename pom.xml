@@ -19,6 +19,8 @@
 
 	<modules>
 		<module>nils4spring</module>
+		<module>autoconfigure</module>
+		<module>starter</module>
 	</modules>
 
 	<dependencyManagement>
