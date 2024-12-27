@@ -36,6 +36,29 @@
 				<version>${versions.nils}</version>
 			</dependency>
 			<dependency>
+				<groupId>com.codepulsar.nils</groupId>
+				<artifactId>nils-gson-adapter</artifactId>
+				<version>${versions.nils}</version>
+				<optional>true</optional>
+			</dependency>
+			<dependency>
+				<groupId>com.codepulsar.nils</groupId>
+				<artifactId>nils-jackson-adapter</artifactId>
+				<version>${versions.nils}</version>
+				<optional>true</optional>
+			</dependency>
+			<dependency>
+				<groupId>com.codepulsar.nils</groupId>
+				<artifactId>nils-jdbc-adapter</artifactId>
+				<version>${versions.nils}</version>
+				<optional>true</optional>
+			</dependency>
+			<dependency>
+				<groupId>com.codepulsar.nils</groupId>
+				<artifactId>nils-snakeyaml-adapter</artifactId>
+				<version>${versions.nils}</version>
+			</dependency>
+			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-dependencies</artifactId>
 				<version>${versions.spring-boot}</version>
