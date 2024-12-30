@@ -19,8 +19,8 @@
 
 	<modules>
 		<module>nils4spring</module>
-		<module>autoconfigure</module>
-		<module>starter</module>
+		<module>spring-boot</module>
+		<module>spring-boot-starter</module>
 	</modules>
 
 	<dependencyManagement>
