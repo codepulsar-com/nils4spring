@@ -13,7 +13,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<!-- Versions of dependencies -->
 		<versions.nils>3.0.0</versions.nils>
-		<versions.spring-boot>3.4.0</versions.spring-boot>
+		<versions.spring-boot>3.4.1</versions.spring-boot>
 		<!-- Versions of test dependencies -->
 	</properties>
 
