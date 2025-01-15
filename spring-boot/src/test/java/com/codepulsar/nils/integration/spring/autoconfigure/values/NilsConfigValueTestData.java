@@ -22,6 +22,7 @@ public class NilsConfigValueTestData {
   public static final String NULL_LOCALE_FIELD = null;
   public static final String NULL_KEY_FIELD = null;
   public static final String NULL_VALUE_FIELD = null;
+  public static final Long NULL_CACHE_TIMEOUT = null;
 
   public static NilsConfigValues empty() {
     return new NilsConfigValues(
@@ -42,7 +43,8 @@ public class NilsConfigValueTestData {
         NULL_TABLE_NAME,
         NULL_LOCALE_FIELD,
         NULL_KEY_FIELD,
-        NULL_VALUE_FIELD);
+        NULL_VALUE_FIELD,
+        NULL_CACHE_TIMEOUT);
   }
 
   public static NilsConfigValues nonDefault() {
@@ -59,11 +61,12 @@ public class NilsConfigValueTestData {
         "username",
         "password",
         "org.driverClass",
-        "de_DE",
+        "de-DE",
         "test_schema",
         "test_table_name",
         "test_locale_field",
         "test_key_field",
-        "test_value_field");
+        "test_value_field",
+        987L);
   }
 }

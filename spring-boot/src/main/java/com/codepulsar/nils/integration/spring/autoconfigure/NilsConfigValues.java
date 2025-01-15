@@ -28,6 +28,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
  * @param localeField Value of the locale field in the database table.
  * @param keyField Value of the key field in the database table.
  * @param valueField Value of the value field in the database table.
+ * @param cacheTimeout Value for the cache timeout.
  */
 @ConfigurationProperties("nils")
 public record NilsConfigValues(
@@ -48,4 +49,5 @@ public record NilsConfigValues(
     String tableName,
     String localeField,
     String keyField,
-    String valueField) {}
+    String valueField,
+    Long cacheTimeout) {}
