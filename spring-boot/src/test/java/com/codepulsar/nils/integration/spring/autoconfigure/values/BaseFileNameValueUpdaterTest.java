@@ -1,5 +1,6 @@
 package com.codepulsar.nils.integration.spring.autoconfigure.values;
 
+import static com.codepulsar.nils.integration.spring.autoconfigure.values.NilsConfigValueTestData.NULL_CACHE_TIMEOUT;
 import static com.codepulsar.nils.integration.spring.autoconfigure.values.NilsConfigValueTestData.NULL_CLASS_PREFIX_RESOLVER;
 import static com.codepulsar.nils.integration.spring.autoconfigure.values.NilsConfigValueTestData.NULL_DATE_FORMAT_STYLE;
 import static com.codepulsar.nils.integration.spring.autoconfigure.values.NilsConfigValueTestData.NULL_DRIVER_CLASS;
@@ -65,7 +66,8 @@ public class BaseFileNameValueUpdaterTest {
             NULL_TABLE_NAME,
             NULL_LOCALE_FIELD,
             NULL_KEY_FIELD,
-            NULL_VALUE_FIELD);
+            NULL_VALUE_FIELD,
+            NULL_CACHE_TIMEOUT);
 
     // Act
     underTest.update(config, values);
@@ -98,7 +100,8 @@ public class BaseFileNameValueUpdaterTest {
             NULL_TABLE_NAME,
             NULL_LOCALE_FIELD,
             NULL_KEY_FIELD,
-            NULL_VALUE_FIELD);
+            NULL_VALUE_FIELD,
+            NULL_CACHE_TIMEOUT);
 
     // Act
     underTest.update(config, values);

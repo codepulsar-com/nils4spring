@@ -18,6 +18,21 @@
 		</dependency>
 		<dependency>
 			<groupId>com.codepulsar.nils</groupId>
+			<artifactId>nils-gson-adapter</artifactId>
+			<optional>true</optional>
+		</dependency>
+		<dependency>
+			<groupId>com.codepulsar.nils</groupId>
+			<artifactId>nils-jackson-adapter</artifactId>
+			<optional>true</optional>
+		</dependency>
+		<dependency>
+			<groupId>com.codepulsar.nils</groupId>
+			<artifactId>nils-jdbc-adapter</artifactId>
+			<optional>true</optional>
+		</dependency>
+		<dependency>
+			<groupId>com.codepulsar.nils</groupId>
 			<artifactId>nils-snakeyaml-adapter</artifactId>
 			<optional>true</optional>
 		</dependency>

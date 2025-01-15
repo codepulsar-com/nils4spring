@@ -1,1 +1,5 @@
-com.codepulsar.nils.integration.spring.autoconfigure.NilsSpringIntegrationAutoConfiguration
+com.codepulsar.nils.integration.spring.autoconfigure.SnakeYamlAdapterAutoConfiguration
+com.codepulsar.nils.integration.spring.autoconfigure.JacksonAdapterAutoConfiguration
+com.codepulsar.nils.integration.spring.autoconfigure.GsonAdapterAutoConfiguration
+com.codepulsar.nils.integration.spring.autoconfigure.JdbcAdapterAutoConfiguration
+com.codepulsar.nils.integration.spring.autoconfigure.ResourceBundleAdapterAutoConfiguration
